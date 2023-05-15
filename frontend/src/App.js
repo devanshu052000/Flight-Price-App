@@ -23,7 +23,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch('http://localhost:8000/', {
+    fetch('https://flight-api-csbc.onrender.com/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(details)
